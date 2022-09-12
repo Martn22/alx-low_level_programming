@@ -1,11 +1,14 @@
 #include <stdio.h>
+
 /**
- * main function prints single digit base 10 numbers
+ * main - this program prints single digit base numbers
  *
- * description: the main function prints single digit
- * base 10 numbers
- * Return: 0(always)
+ * Description: Main function prints single digit
+ * base numbers.
+ *
+ * Return: 0
  */
+
 int main(void)
 {
 	int x;
