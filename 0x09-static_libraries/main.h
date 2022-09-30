@@ -1,5 +1,14 @@
 #ifndef MAIN_H
-#define MIAN_H
+#define MAIN_H
+
+/**
+ * file  - main.h 
+ *
+ * Description: Header file containing prototypes for all functions
+ * used in the 0x07-pointers_arrays_strings
+ */
+
+#include <stddef.h>
 
 int _putchar(char c);
 int _islower(int c); 
