@@ -43,6 +43,7 @@ char **strtow(char *str)
 	while (*(str + len))
 		len++;
 	words = wordnos(str);
+
 	if (matrix == NULL)
 		return (NULL);
 	for (i = 0; i <= len; i++)
