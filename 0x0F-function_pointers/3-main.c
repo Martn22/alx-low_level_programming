@@ -1,4 +1,4 @@
-#include "3-clac.h"
+#include "3-calc.h"
 
 /**
  * main - check arguments
@@ -15,10 +15,10 @@ int main(int argc, char *argv[])
 
 	if (argc != 4)
 	{
-		printf("Error\n")
+		printf("Error\n");
 			exit(98);
 	}
-	/*check if there'sonly one operator*/
+	/*check if there's only one operator*/
 	if (argv[2][1] != '\0')
 	{
 		printf("Error\n");
