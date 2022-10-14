@@ -1,5 +1,4 @@
 #include "3-calc.h"
-
 /**
  * main - check arguments
  * @argc: argument count.
@@ -7,7 +6,6 @@
  *
  * Return: error if number of arguments is wrong.
  */
-
 int main(int argc, char *argv[])
 {
 	int a = 0, b = 0, res = 0;
@@ -22,7 +20,7 @@ int main(int argc, char *argv[])
 	if (argv[2][1] != '\0')
 	{
 		printf("Error\n");
-		exit(98);
+		exit(99);
 	}
 
 	s = argv[2][0];
